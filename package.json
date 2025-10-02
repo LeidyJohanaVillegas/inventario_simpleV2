@@ -5,9 +5,16 @@
   "type": "module",
   "main": "src/electron/main.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "vite",
     "dev:electron": "electron .",
     "back":"cd Backend && .venv/Scripts/python -m uvicorn app.main:app --reload --port 4000",
+=======
+    "back": "cd backend && .\\.venv\\Scripts\\python run_backend.py",
+    "dev": "vite",
+    "dev:electron": "electron .",
+    "backend": "cd Backend && .venv/Scripts/python -m uvicorn app.main:app --reload --port 4000",
+>>>>>>> e6a0384 (funcionando el back pero no el qr para coneccion celular)
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -22,7 +29,12 @@
     "jspdf-autotable": "^5.0.2",
     "react": "^19.1.1",
     "react-calendar": "^6.0.0",
+<<<<<<< HEAD
     "react-dom": "^19.1.1"
+=======
+    "react-dom": "^19.1.1",
+    "react-qr-code": "^2.0.18"
+>>>>>>> e6a0384 (funcionando el back pero no el qr para coneccion celular)
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
